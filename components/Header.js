@@ -12,7 +12,7 @@ const Header = (props) => {
 
     return (
         <>
-            <StatusBar backgroundColor={COLORS.Purple} />
+            <StatusBar backgroundColor={COLORS.white} barStyle={'dark-content'} />
             <View style={styles.Header_View}>
 
                 <TouchableOpacity
@@ -39,9 +39,9 @@ const styles = StyleSheet.create({
     {
         justifyContent: 'space-between',
         flexDirection: 'row',
-        height: RFPercentage(25),
+        height: RFPercentage(23),
         width: SIZES.width,
-        backgroundColor: COLORS.Purple,
+        // backgroundColor: COLORS.Purple,
         padding: RFPercentage(3),
         borderBottomEndRadius: RFPercentage(8),
         borderBottomStartRadius: RFPercentage(8)
