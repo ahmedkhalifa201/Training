@@ -2,6 +2,7 @@ import React from 'react'
 
 
 import {View, StyleSheet } from 'react-native'
+import { COLORS } from '../constants';
 import { Header } from './components';
 
 
@@ -33,7 +34,7 @@ const styles = StyleSheet.create({
 
   main_View: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: COLORS.white,
     alignItems: 'center'
   },
 
